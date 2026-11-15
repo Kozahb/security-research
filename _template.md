@@ -1,26 +1,26 @@
-# Título: a classe do bug, não o alvo
+# Title: the class of bug, not the target
 
-> **Sobre este documento.** Peça de portfólio. Descreve técnica e processo, não alvos: nenhum programa, empresa, host, endpoint real, número de report ou conta aparece aqui. Nomes de rota são genéricos e servem só para mostrar a forma do problema. Todos os números citados são medições reais do meu próprio trabalho, em engajamento autorizado e com contas minhas.
+> **About this document.** Portfolio piece. It describes technique and process, not targets: no program, company, host, real endpoint, report number or account appears here. Route names are generic and serve only to show the shape of the problem. Every number cited is a real measurement from my own work, under authorised engagement and on accounts of mine.
 
-## A forma do bug
+## The shape of the bug
 
-Descreva o comportamento incorreto em termos genéricos. O que o alvo faz de certo num caminho e de errado em outro? A melhor abertura mostra o contraste, porque é o contraste que torna a falha inarguível.
+Describe the incorrect behaviour in generic terms. What does the target get right on one path and wrong on another? The best opening shows the contrast, because the contrast is what makes the flaw unarguable.
 
-## Como foi achado
+## How it was found
 
-Os passos, na ordem em que importam. Cada passo é uma decisão, não um comando. O valor está em por que você olhou ali, não na ferramenta que rodou.
+The steps, in the order that matters. Each step is a decision, not a command. The value lies in why you looked there, not in the tool you ran.
 
 1. ...
 2. ...
 
-## Por que importa (ou por que duplicou)
+## Why it matters (or why it duplicated)
 
-O enquadramento: qual controle foi burlado, qual o delta de impacto sobre o que a feature legítima já entrega, qual o teto de severidade. Se duplicou ou foi informativo, por quê - e o que isso ensina sobre seleção de alvo.
+The framing: which control was bypassed, what the impact delta is over what the legitimate feature already delivers, what the severity ceiling is. If it duplicated or came back informative, why - and what that teaches about target selection.
 
-## Limites que documentei
+## Limits I documented
 
-O que você mediu e decidiu não perseguir, e por quê. Esta seção é o que separa pesquisa de ruído: mostra que você calcula custo e severidade antes de investir.
+What you measured and decided not to pursue, and why. This section is what separates research from noise: it shows you weigh cost and severity before investing.
 
-## Procedimento reproduzível
+## Reproducible procedure
 
-Quando houver uma técnica geral por trás do achado, destile-a num procedimento que outra pessoa poderia seguir em outro alvo. Números medidos valem mais que adjetivos.
+Where a general technique sits behind the finding, distil it into a procedure someone else could follow on a different target. Measured numbers are worth more than adjectives.

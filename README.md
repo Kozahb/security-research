@@ -1,26 +1,36 @@
 # Security Research
 
-Notas de metodologia e write-ups de pesquisa de segurança de aplicações web, com foco em falhas de autorização (BOLA/IDOR), descoberta de superfície de API e seleção de alvo.
+Methodology notes and write-ups on web application security research, focused on authorization flaws
+(BOLA/IDOR), API surface discovery and target selection.
 
-Pesquiso em programas públicos de bug bounty sob o handle [`kozahb`](https://hackerone.com/kozahb) no HackerOne.
+I research public bug bounty programs under the handle [`kozahb`](https://hackerone.com/kozahb) on
+HackerOne.
 
-## Princípio deste repositório
+🇧🇷 [Versão em português](pt/README.md)
 
-Todo conteúdo aqui descreve **técnica e processo, nunca alvos**. Nenhum programa, empresa, host, endpoint real, número de report ou conta aparece nos textos. Nomes de rota são genéricos e servem apenas para mostrar a forma do problema. Os números citados são medições reais do meu próprio trabalho, em engajamento autorizado e com contas minhas.
+## The principle behind this repository
 
-Cada texto é publicado respeitando a política de divulgação do programa em questão.
+Everything here describes **technique and process, never targets**. No program, company, host, real
+endpoint, report number or account appears in these texts. Route names are generic and serve only to
+show the shape of the problem. The numbers cited are real measurements from my own work, under
+authorised engagement and on accounts of mine.
 
-## Conteúdo
+Each text is published in accordance with the disclosure policy of the program concerned.
 
-### Metodologia
+## Contents
 
-- [Das duplicatas à seleção de alvo](methodology/from-duplicates-to-target-selection.md) - o que uma duplicata ensina sobre visibilidade de superfície, e o procedimento de reconstrução do grafo de módulos de uma aplicação (module federation) para encontrar superfície de API que a interface não anuncia.
+### Methodology
 
-## Ferramentas
+- [From duplicates to target selection](methodology/from-duplicates-to-target-selection.md) - what a
+  duplicate teaches about surface visibility, and the procedure for reconstructing an application's
+  module graph (module federation) to find API surface the interface never advertises.
 
-- [kozarecon](https://github.com/Kozahb/kozarecon) - toolkit de reconhecimento pluggável, assíncrono e com validação de escopo no núcleo.
+## Tools
 
-## Contato
+- [kozarecon](https://github.com/Kozahb/kozarecon) - a pluggable reconnaissance toolkit, async and
+  scope-enforced at its core.
+
+## Contact
 
 - HackerOne: [`kozahb`](https://hackerone.com/kozahb)
 - LinkedIn: [Thaleson Eduardo](https://www.linkedin.com/in/thalesoneduardo/)
